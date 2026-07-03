@@ -1,0 +1,16 @@
+﻿Asset,Department,Purpose,Algorithm,KeyLength,TLSVersion,DataLifeYears,Sensitivity,KeyStorage,Cloud,Status
+Internet Banking,IT,Customer Transactions,RSA,2048,TLS 1.2,20,High,HSM,No,Active
+Mobile Banking,IT,Mobile Payments,ECC,384,TLS 1.2,15,High,HSM,No,Active
+ATM Network,Operations,Retail Banking,RSA,2048,TLS 1.2,15,High,HSM,No,Active
+Payment Gateway,Finance,Retail Payments,RSA,2048,TLS 1.2,25,High,HSM,Yes,Active
+Employee Email,HR,Internal Communication,RSA,2048,TLS 1.2,7,Medium,Software Vault,Yes,Active
+VPN Gateway,Security,Remote Access,RSA,2048,TLS 1.2,10,High,HSM,No,Active
+Customer Database,Database,Customer Records,AES,256,None,30,Critical,HSM,No,Active
+Backup Server,Infrastructure,Disaster Recovery,AES,256,None,25,High,HSM,No,Active
+Cloud Storage,Cloud,Document Storage,AES,256,None,20,High,Cloud KMS,Yes,Active
+Certificate Authority,Security,Digital Certificates,RSA,4096,None,20,Critical,HSM,No,Active
+Internal Portal,IT,Employee Services,ECC,384,TLS 1.2,8,Medium,Software Vault,No,Active
+Document Management,Administration,Official Documents,RSA,2048,TLS 1.2,15,Medium,Software Vault,Yes,Active
+Core Banking System,Banking,Financial Transactions,RSA,4096,TLS 1.2,30,Critical,HSM,No,Active
+Fraud Detection Server,Security,Transaction Monitoring,AES,256,None,10,High,HSM,Yes,Active
+Identity Management,Security,Authentication,ECC,384,TLS 1.2,20,Critical,HSM,No,Active
